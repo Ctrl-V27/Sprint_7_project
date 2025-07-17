@@ -2,10 +2,11 @@ import pandas as pd
 import plotly.graph_objects as go  # Importación de plotly.graph_objects como go
 import streamlit as st
 
+
 # Importación de plotly.graph_=objects como go
-ruta_absoluta = "C:/Users/enriq/Documents/Data_Scientist/Project/Sprint_7_project/vehicles_us.csv"
+
 # Leer los datos del archivo CSV
-car_data = pd.read_csv(ruta_absoluta)
+car_data = pd.read_csv("vehicles_us.csv")
 # creacion de encabezado
 st.header("Datos de Anuncios de Coches")
 # Crear un botón en la aplicación Streamlit
